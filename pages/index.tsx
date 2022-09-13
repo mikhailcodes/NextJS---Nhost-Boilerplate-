@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { authProtected } from '../components/authProtected'
+import { authProtected } from '../components/withAuth'
 
 const Home: NextPage = () => {
   return (
